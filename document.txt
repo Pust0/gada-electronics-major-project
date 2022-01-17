@@ -1,0 +1,53 @@
+Some features that can be implement[It will take some time]
+	-> Sorting system for products on the basis of
+		1) on date.
+		2) price.
+
+	-> Auto suggest in search bar.
+
+Future Scope
+	-> Improve UI.
+
+concurrency control
+
+when a user click on buy now
+	->check is product in stock
+		->if yes
+			begin transaction
+				do some operations
+				->if transaction is successful the commit changes
+				->else Rollback
+			end
+		->show product is out of stock
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

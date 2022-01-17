@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+}
+.productname {
+  font-size: 25px;
+  font-weight: 450;
+}
+.product-image {
+  object-fit: contain;
+}
+.card-image {
+  max-height: 400px;
+}
+.text {
+  background: -webkit-linear-gradient(
+    right,
+    #031b4e,
+    #9900cc,
+    #56c5e4,
+    #9f01ea
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
+table {
+  width: 100%;
+}
+h3 {
+  color: #031b4e;
+}
+tr {
+  border: 2px solid #1641a0;
+  text-align: center;
+  font-size: 20px;
+}
+th {
+  padding: 15px;
+}
+td {
+  color: #031b4e;
+  padding: 20px;
+  text-align: center;
+}
+.btn {
+  font-size: 20px;
+  font-weight: 500;
+}
+#addtocardbtn {
+  color: white;
+}
+.payment {
+  display: inline-block;
+}
+.price {
+  color: #1641a0;
+  font-size: 33px;
+}
+.discount {
+  text-decoration: line-through;
+  font-size: 18px;
+}
+#error-message {
+  background-color: #efdcdd;
+  color: red;
+  padding: 10px;
+  margin: 10px;
+  display: none;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+#success-message {
+  background-color: #def1d8;
+  color: green;
+  padding: 10px;
+  margin: 10px;
+  display: none;
+  position: absolute;
+  right: 15px;
+  top: 100px;
+  z-index: 999;
+}
+#stock-mgs-box {
+  display: none;
+}
+@media (max-width: 992px) {
+  #card-name {
+    order: 1;
+  }
+  #card-image {
+    order: 2;
+  }
+  #after-card {
+    order: 3;
+  }
+}

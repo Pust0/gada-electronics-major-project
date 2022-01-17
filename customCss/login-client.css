@@ -1,0 +1,17 @@
+#con {
+  padding: 20px 20px;
+  width: auto;
+  max-width: 600px;
+  height: auto;
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.9);
+}
+#con .text {
+  background: -webkit-linear-gradient(right, #0c3, #9900cc, #56c5e4, #9f01ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn {
+  left: -100%;
+  padding: 10px 30px;
+  transition: all 0.4s;
+}
